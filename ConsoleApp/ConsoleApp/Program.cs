@@ -5,22 +5,30 @@ namespace ConsoleApp {
 
         static void Main(string[] args) {
 
-            Console.Write("How many tweets to add? [Max 5]");
+            Console.WriteLine("How many tweets to add? [Max 5]");
             int noTweets = int.Parse( Console.ReadLine() );
 
             string[] tweetList = new string[5];
 
             for (int i = 0; i < noTweets; i++) {
 
+                Console.Write("Please enter tweet " + i + ": ");
                 string newTweet = Console.ReadLine();
 
-                tweetList[i] = newTweet;
+                if (newTweet.Length < 50) {
+
+                    tweetList[i] = newTweet;
+                }
+                else {
+
+                    Console.WriteLine("Error, Tweets cannot be longer than 50 characters");
+                }
             }
 
             Console.WriteLine("Your Tweets are:");
             for (int i = 0; i < tweetList.Length; i++) {
 
-                Console.WriteLine("Tweet {0}: {1}", i, tweetList[i]);
+                Console.WriteLine("Tweet {0}: {1}", i + 1, tweetList[i]);
             }
 
             Console.ReadLine();
