@@ -1,0 +1,7 @@
+C:\Dev\Personal Code\Projects\twitter-cli-app\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Dev\Personal Code\Projects\twitter-cli-app\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Dev\Personal Code\Projects\twitter-cli-app\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Dev\Personal Code\Projects\twitter-cli-app\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.AssemblyReference.cache
+C:\Dev\Personal Code\Projects\twitter-cli-app\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Dev\Personal Code\Projects\twitter-cli-app\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Dev\Personal Code\Projects\twitter-cli-app\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
